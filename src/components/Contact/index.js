@@ -27,12 +27,14 @@ const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
+  color: white; /* Title in white */
 `;
 
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   max-width: 600px;
+  color: white; /* Description text in white */
 `;
 
 const ContactForm = styled.form`
@@ -40,7 +42,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: black; /* Form background black */
   padding: 32px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -50,20 +52,24 @@ const ContactForm = styled.form`
 
 const ContactInput = styled.input`
   flex: 1;
-  border: 1px solid #ccc;
+  border: 1px solid #555;
   outline: none;
   font-size: 18px;
   padding: 12px 16px;
   border-radius: 12px;
+  background: black;
+  color: white; /* White text */
 `;
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
-  border: 1px solid #ccc;
+  border: 1px solid #555;
   outline: none;
   font-size: 18px;
   padding: 12px 16px;
   border-radius: 12px;
+  background: black;
+  color: white; /* White text */
 `;
 
 const ContactButton = styled.button`
@@ -89,17 +95,15 @@ const Contact = () => {
   const [isFormValid, setIsFormValid] = useState(false);
   const [open, setOpen] = useState(false);
 
-  // Function to update form data and check validity
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value.trim() }));
-  };
-
-  // Check if form is valid
   useEffect(() => {
     const { from_email, from_name, subject, message } = formData;
     setIsFormValid(from_email !== "" && from_name !== "" && subject !== "" && message !== "");
   }, [formData]);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value.trim() }));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
