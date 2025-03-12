@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
@@ -10,6 +10,9 @@ const Container = styled.div`
   align-items: center;
   position: relative;
   z-index: 1;
+  @media (max-width: 960px) {
+    padding: 0px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -20,6 +23,9 @@ const Wrapper = styled.div`
   max-width: 1350px;
   padding: 0px 0px 80px 0px;
   gap: 12px;
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
 `;
 
 const Title = styled.div`
@@ -27,14 +33,20 @@ const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  color: white; /* Title in white */
+  color: ${({ theme }) => theme.text_primary};
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 `;
 
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   max-width: 600px;
-  color: white; /* Description text in white */
+  color: ${({ theme }) => theme.text_secondary};
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const ContactForm = styled.form`
@@ -42,7 +54,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: black; /* Form background black */
+  background-color: ${({ theme }) => theme.card};
   padding: 32px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -50,75 +62,84 @@ const ContactForm = styled.form`
   gap: 12px;
 `;
 
+const ContactTitle = styled.div`
+  font-size: 24px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.text_primary};
+`;
+
 const ContactInput = styled.input`
   flex: 1;
-  border: 1px solid #555;
+  background-color: transparent;
+  border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
-  padding: 12px 16px;
+  color: ${({ theme }) => theme.text_primary};
   border-radius: 12px;
-  background: black;
-  color: white; /* White text */
+  padding: 12px 16px;
+  &:focus {
+    border: 1px solid ${({ theme }) => theme.primary};
+  }
 `;
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
-  border: 1px solid #555;
+  background-color: transparent;
+  border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
-  padding: 12px 16px;
+  color: ${({ theme }) => theme.text_primary};
   border-radius: 12px;
-  background: black;
-  color: white; /* White text */
+  padding: 12px 16px;
+  &:focus {
+    border: 1px solid ${({ theme }) => theme.primary};
+  }
 `;
 
-const ContactButton = styled.button`
+const ContactButton = styled.input`
   width: 100%;
-  background: ${(props) => (props.disabled ? "#ccc" : "linear-gradient(225deg, #6a11cb 0%, #2575fc 100%)")};
+  text-align: center;
+  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
   padding: 13px 16px;
   border-radius: 12px;
   border: none;
-  color: white;
+  color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
-  cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
+  cursor: pointer;
   font-weight: 600;
 `;
 
 const Contact = () => {
   const form = useRef();
-  const [formData, setFormData] = useState({
-    from_email: "",
-    from_name: "",
-    subject: "",
-    message: "",
-  });
-  const [isFormValid, setIsFormValid] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const { from_email, from_name, subject, message } = formData;
-    setIsFormValid(from_email !== "" && from_name !== "" && subject !== "" && message !== "");
-  }, [formData]);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value.trim() }));
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!isFormValid) {
+    const email = form.current.from_email.value.trim();
+    const name = form.current.from_name.value.trim();
+    const subject = form.current.subject.value.trim();
+    const message = form.current.message.value.trim();
+
+    if (!email || !name || !subject || !message) {
       alert("All fields are required!");
       return;
     }
 
+    const formData = { from_email: email, from_name: name, subject, message };
+
     emailjs
       .sendForm("service_j87md9s", "template_ml8qcqe", form.current, "Ku_ulZFzp_8mCFnAx")
       .then(() => {
+        console.log("Message sent to admin!");
+
+        emailjs
+          .send("service_j87md9s", "template_auto_reply", formData, "Ku_ulZFzp_8mCFnAx")
+          .then(() => console.log("Auto-reply sent!"))
+          .catch((error) => console.error("Error in auto-reply:", error));
+
         setOpen(true);
         form.current.reset();
-        setFormData({ from_email: "", from_name: "", subject: "", message: "" });
       })
       .catch((error) => console.log(error.text));
   };
@@ -127,17 +148,22 @@ const Contact = () => {
     <Container>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Got questions? Let’s talk!</Desc>
+        <Desc>Got questions or exciting opportunities? Hit me up, I'm all ears (and keyboards)!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactInput placeholder="Your Email" name="from_email" value={formData.from_email} onChange={handleChange} />
-          <ContactInput placeholder="Your Name" name="from_name" value={formData.from_name} onChange={handleChange} />
-          <ContactInput placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" value={formData.message} onChange={handleChange} />
-          <ContactButton type="submit" disabled={!isFormValid}>
-            Send
-          </ContactButton>
+          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
+          <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <Snackbar open={open} autoHideDuration={6000} onClose={() => setOpen(false)} message="Email sent successfully!" />
+        <Snackbar
+          open={open}
+          autoHideDuration={6000}
+          onClose={() => setOpen(false)}
+          message="Email sent successfully!"
+          severity="success"
+        />
       </Wrapper>
     </Container>
   );
