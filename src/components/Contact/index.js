@@ -132,30 +132,45 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
-const Contact = () => {
-  //hooks
-  const [open, setOpen] = React.useState(false);
-  const form = useRef();
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_j87md9s",
-        "template_ml8qcqe",
-        form.current,
-        "Ku_ulZFzp_8mCFnAx"
-      )
-      .then(
-        (result) => {
-          setOpen(true);
-          form.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+  const formData = {
+    from_email: form.current.from_email.value,
+    from_name: form.current.from_name.value,
+    subject: form.current.subject.value,
+    message: form.current.message.value,
   };
+
+  // Send Message to Admin
+  emailjs
+    .sendForm(
+      "service_j87md9s",
+      "template_ml8qcqe",  // Template for sending messages to admin
+      form.current,
+      "Ku_ulZFzp_8mCFnAx"
+    )
+    .then((result) => {
+      console.log("Message sent to admin!");
+
+      // Send Auto-Reply to User
+      emailjs
+        .send(
+          "service_j87md9s",
+          "template_auto_reply",  // Template ID for auto-reply
+          formData,
+          "Ku_ulZFzp_8mCFnAx"
+        )
+        .then(() => console.log("Auto-reply sent!"))
+        .catch((error) => console.error("Error in auto-reply:", error));
+
+      setOpen(true);
+      form.current.reset();
+    })
+    .catch((error) => {
+      console.log(error.text);
+    });
+};
 
   return (
     <Container>
