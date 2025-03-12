@@ -26,7 +26,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a
+          <a href="/"
             style={{
               display: "flex",
               alignItems: "center",
