@@ -273,7 +273,7 @@ export const projects = [
     github:
       "https://github.com/xenon1919/Advanced-Pneumonia-Detection-in-Chest-X-rays-Using-Optimized-Convolutional-Neural-Networks",
     webapp:
-      "https://github.com/xenon1919/Advanced-Pneumonia-Detection-in-Chest-X-rays-Using-Optimized-Convolutional-Neural-Networks",
+      "https://pneumonia-detection-app-123.streamlit.app/",
   },
 
   {
