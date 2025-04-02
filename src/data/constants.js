@@ -202,7 +202,7 @@ export const projects = [
     "Google reCAPTCHA"
   ],
   "category": "web app",
-  "github": "https://github.com/xenon1919/Secure-Voting-System",
+  "github": "https://github.com/xenon1919/Secure-Online-Voting-System",
   "webapp": "http://secure-voting-frontend.onrender.com/"
 },
   {
