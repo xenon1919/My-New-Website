@@ -181,6 +181,30 @@ export const education = [
 ];
 
 export const projects = [
+
+  {
+  "id": 10,
+  "title": "Secure Online Voting System",
+  "date": "Oct 2024 - Present",
+  "description": "A secure online voting system designed for Indian government elections, ensuring safe and tamper-proof voting. Built with React, Node.js, Express, and MongoDB, it features voter authentication, encrypted votes using AES, CAPTCHA verification, real-time vote counting, and an admin dashboard for election management. The system prioritizes security, scalability, and user-friendliness.",
+  "image": "https://github.com/xenon1919/Secure-Online-Voting-System/blob/main/output/Welcome-voting-system-light-theme.jpeg?raw=true",
+  "tags": [
+    "React.js",
+    "CSS3",
+    "Bootstrap",
+    "Material-UI",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "bcrypt.js",
+    "jsonwebtoken (JWT)",
+    "AES Encryption",
+    "Google reCAPTCHA"
+  ],
+  "category": "web app",
+  "github": "https://github.com/xenon1919/Secure-Voting-System",
+  "webapp": "http://secure-voting-frontend.onrender.com/"
+},
   {
     id: 9,
     title: "Eatsy-App",
