@@ -283,6 +283,26 @@ export const projects = [
     github: "https://github.com/xenon1919/Gemini-Clone-using-ReactJS",
     webapp: "https://gemini-clone-using-react-js.vercel.app/",
   },
+{
+  "id": 11,
+  "title": "Customer Churn Prediction using XGBoost",
+  "date": "Apr 2025 - Present",
+  "description": "An AI-powered web application built with Streamlit, utilizing XGBoost to predict customer churn. It analyzes customer data to determine whether a customer will stay or leave a company based on financial and demographic details. The system provides real-time predictions, insights into key influencing factors, and an interactive UI for ease of use.",
+  "image": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost/blob/main/Churn.png?raw=true",
+  "tags": [
+    "Streamlit",
+    "Python",
+    "XGBoost",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Pickle",
+    "MinMaxScaler"
+  ],
+  "category": "machine learning",
+  "github": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost",
+  "webapp": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost"
+},
 
   {
     id: 4,
