@@ -288,7 +288,7 @@ export const projects = [
   "title": "Customer Churn Prediction using XGBoost",
   "date": "Dec 2024 - Mar 2025",
   "description": "An AI-powered web application built with Streamlit, utilizing XGBoost to predict customer churn. It analyzes customer data to determine whether a customer will stay or leave a company based on financial and demographic details. The system provides real-time predictions, insights into key influencing factors, and an interactive UI for ease of use.",
-  "image": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost/blob/main/Churn.png?raw=true",
+  "image": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost/blob/main/customer%20churn.png?raw=true",
   "tags": [
     "Streamlit",
     "Python",
