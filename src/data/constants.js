@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I’m a motivated problem-solver who thrives on turning challenges into opportunities. Driven by curiosity and a growth mindset, I’m dedicated to achieving meaningful results while keeping the process engaging and rewarding.",
   github: "https://github.com/xenon1919",
-  resume: "https://publuu.com/flip-book/820300/1805527",
+  resume: "https://drive.google.com/file/d/1HKJk3tGnSXXJgNKJCZ4zizvk4S50HwEj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rishisaiteja/",
   twitter: "https://twitter.com/x_e_n_o_n_19",
   insta: "https://www.instagram.com/x_e_n_o_n_19/",
