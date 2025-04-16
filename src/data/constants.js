@@ -327,7 +327,7 @@ export const projects = [
   "title": "Netflix India Clone 🎬",
   "date": "Apr 2025",
   "description": "A fully responsive Netflix India homepage clone built using HTML5 and CSS3. This project replicates the vibrant UI, clean layout, and core features of the Netflix India landing page, including device compatibility sections, FAQ accordion, and an email capture form for user engagement.",
-  "image": "https://raw.githubusercontent.com/xenon1919/Netflix-Clone-using-HTML-CSS/main/assets/banner.png",
+  "image": "https://github.com/xenon1919/Netflix-Clone-using-HTML-CSS/blob/main/netflix.png?raw=true",
   "tags": [
     "HTML5",
     "CSS3",
