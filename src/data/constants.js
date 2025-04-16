@@ -303,7 +303,44 @@ export const projects = [
   "github": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost",
   "webapp": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost"
 },
+{
+  "id": 12,
+  "title": "Virtual Shopping Assistant",
+  "date": "Mar 2025 - Apr 2025",
+  "description": "A smart and interactive web application built with React and Express.js, the Virtual Shopping Assistant helps users discover and explore products effortlessly through a chatbot-style interface. It uses a simple AI-based backend and DummyJSON API to suggest products and respond to user queries, offering an intuitive and modern shopping experience.",
+  "image": "https://github.com/xenon1919/Virtual-Shopping-Assistant/blob/main/virtual-shopping.png?raw=true",
+  "tags": [
+    "ReactJS",
+    "Express.js",
+    "JavaScript",
+    "CSS",
+    "Google Fonts",
+    "React Icons",
+    "DummyJSON API"
+  ],
+  "category": "web app",
+  "github": "https://github.com/xenon1919/Virtual-Shopping-Assistant",
+  "webapp": "https://virtual-shopping-assistant-j6km.onrender.com/"
+},
+{
+  "id": 13,
+  "title": "Netflix India Clone 🎬",
+  "date": "Apr 2025",
+  "description": "A fully responsive Netflix India homepage clone built using HTML5 and CSS3. This project replicates the vibrant UI, clean layout, and core features of the Netflix India landing page, including device compatibility sections, FAQ accordion, and an email capture form for user engagement.",
+  "image": "https://raw.githubusercontent.com/xenon1919/Netflix-Clone-using-HTML-CSS/main/assets/banner.png",
+  "tags": [
+    "HTML5",
+    "CSS3",
+    "Responsive Design",
+    "UI Clone",
+    "Netflix"
+  ],
+  "category": "web app",
+  "github": "https://github.com/xenon1919/Netflix-Clone-using-HTML-CSS",
+  "webapp": "https://netflix-clone-gules-five.vercel.app/"
+},
 
+  
   {
     id: 4,
     title: "Pneumonia Detection",
