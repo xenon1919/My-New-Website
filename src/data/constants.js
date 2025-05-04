@@ -339,8 +339,42 @@ export const projects = [
   "github": "https://github.com/xenon1919/Netflix-Clone-using-HTML-CSS",
   "webapp": "https://netflix-clone-gules-five.vercel.app/"
 },
+{
+  "id": 14,
+  "title": "QR Code Attendance System using Django 🧑‍💼📷",
+  "date": "Apr 2025",
+  "description": "A Django-based web application that automates employee attendance tracking through QR code scanning. It features secure admin and employee login, real-time webcam-based QR scanning using OpenCV, and an intuitive dashboard to manage daily attendance records.",
+  "image": "https://github.com/xenon1919/QR-Code-Attendance-System-Django/blob/main/emp.png?raw=true",
+  "tags": [
+    "Django",
+    "QR Code",
+    "OpenCV",
+    "MySQL",
+    "Attendance System"
+  ],
+  "category": "web app",
+  "github": "https://github.com/xenon1919/QR-Code-Attendance-System-Django",
+  "webapp": "https://github.com/xenon1919/QR-Code-Attendance-System-Django"
+},
 
-  
+  {
+  "id": 15,
+  "title": "Django Inventory Management System 📦",
+  "date": "Apr 2025",
+  "description": "A responsive Django-based Inventory Management System for efficient product tracking. Includes full CRUD functionality, clean Bootstrap 4 UI, and enhanced form styling with crispy forms. Ideal for managing stock, suppliers, and product details with ease.",
+  "image": "https://github.com/xenon1919/Django-Inventory-Management-System/blob/main/inv.png?raw=true",
+  "tags": [
+    "Django",
+    "Inventory",
+    "CRUD",
+    "Bootstrap",
+    "Python"
+  ],
+  "category": "web app",
+  "github": "https://github.com/xenon1919/Django-Inventory-Management-System",
+  "webapp": "https://github.com/xenon1919/Django-Inventory-Management-System"
+},
+
   {
     id: 4,
     title: "Pneumonia Detection",
