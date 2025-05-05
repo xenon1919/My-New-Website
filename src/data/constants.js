@@ -181,306 +181,141 @@ export const education = [
 ];
 
 export const projects = [
-
+[
   {
-  "id": 10,
-  "title": "Secure Online Voting System",
-  "date": "Oct 2024 - Present",
-  "description": "A secure online voting system designed for Indian government elections, ensuring safe and tamper-proof voting. Built with React, Node.js, Express, and MongoDB, it features voter authentication, encrypted votes using AES, CAPTCHA verification, real-time vote counting, and an admin dashboard for election management. The system prioritizes security, scalability, and user-friendliness.",
-
-  "tags": [
-    "React.js",
-    "CSS3",
-    "Bootstrap",
-    "Material-UI",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "bcrypt.js",
-    "jsonwebtoken (JWT)",
-    "AES Encryption",
-    "Google reCAPTCHA"
-  ],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/Secure-Online-Voting-System",
-  "webapp": "http://secure-voting-frontend.onrender.com/"
-},
-  {
-    id: 9,
-    title: "Eatsy-App",
-    date: "Dec 2024 - Feb 2025",
-    description:
-      "Eatsy is a full-stack food delivery app offering a seamless experience for browsing, ordering, and paying for meals. Built with React, Node.js, Express, MongoDB, and Stripe, it features user authentication, dynamic menus, cart management, secure payments, and an admin dashboard for managing orders and data. Scalable and user-friendly!",
-    image:
-      "/images/eatsy.png",
-    tags: [
-      "React.js",
-      "CSS3",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Stripe API",
-      "bcrypt.js",
-      "jsonwebtoken (JWT)",
-    ],
-    category: "web app",
-    github: "https://github.com/xenon1919/Eatsy-App",
-    webapp: "http://eatsy-app-frontend.onrender.com/",
+    "id": 10,
+    "title": "Secure Online Voting System",
+    "date": "Oct 2024 - Present",
+    "description": "A secure online voting system designed for Indian government elections, ensuring safe and tamper-proof voting. Built with React, Node.js, Express, and MongoDB, it features voter authentication, encrypted votes using AES, CAPTCHA verification, real-time vote counting, and an admin dashboard for election management. The system prioritizes security, scalability, and user-friendliness.",
+       "image": "/images/vote.png",
+    "tags": ["React.js", "CSS3", "Bootstrap", "Material-UI", "Node.js", "Express.js", "MongoDB", "bcrypt.js", "jsonwebtoken (JWT)", "AES Encryption", "Google reCAPTCHA"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/Secure-Online-Voting-System",
+    "webapp": "http://secure-voting-frontend.onrender.com/"
   },
-
   {
-    id: 0,
-    title: "Spotify Clone",
-    date: "Feb 2025 - Mar 2025",
-    description:
-      "A Spotify Clone built using React.js and Tailwind CSS, featuring a sleek UI, responsive design, and music playback functionality.",
-    image:
-      "/images/spotify-clone.png",
-    tags: ["React.js", "Tailwind CSS", "Context API"],
-    category: "web app",
-    github: "https://github.com/xenon1919/spotify-clone-react",
-    webapp: "https://spotify-woad-eight.vercel.app/",
+    "id": 9,
+    "title": "Eatsy-App",
+    "date": "Dec 2024 - Feb 2025",
+    "description": "Eatsy is a full-stack food delivery app offering a seamless experience for browsing, ordering, and paying for meals. Built with React, Node.js, Express, MongoDB, and Stripe, it features user authentication, dynamic menus, cart management, secure payments, and an admin dashboard for managing orders and data. Scalable and user-friendly!",
+    "image": "/images/eatsy.png",
+    "tags": ["React.js", "CSS3", "Node.js", "Express.js", "MongoDB", "Stripe API", "bcrypt.js", "jsonwebtoken (JWT)"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/Eatsy-App",
+    "webapp": "http://eatsy-app-frontend.onrender.com/"
   },
-
   {
-    id: 1,
-    title: "Customer Churn Analysis",
-    date: " Nov 2024 - Dec 2024",
-    description:
-      "This project focuses on customer churn analysis using SQL and Power BI. The data was imported into Power BI via Excel for visualization and insights. The objective is to identify factors contributing to customer churn and provide actionable insights for business improvements.",
-    image:
-      "/images/churn-analysis-1.png",
-    tags: ["SQL", "Excel", "Power BI"],
-    category: "machine learning",
-    github: "https://github.com/xenon1919/Churn-Trends-Dashboard",
-    webapp: "https://github.com/xenon1919/Churn-Trends-Dashboard",
+    "id": 12,
+    "title": "Virtual Shopping Assistant",
+    "date": "Mar 2025 - Apr 2025",
+    "description": "A smart and interactive web application built with React and Express.js, the Virtual Shopping Assistant helps users discover and explore products effortlessly through a chatbot-style interface. It uses a simple AI-based backend and DummyJSON API to suggest products and respond to user queries, offering an intuitive and modern shopping experience.",
+    "image": "/images/virtual-shopping.png",
+    "tags": ["ReactJS", "Express.js", "JavaScript", "CSS", "Google Fonts", "React Icons", "DummyJSON API"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/Virtual-Shopping-Assistant",
+    "webapp": "https://virtual-shopping-assistant-j6km.onrender.com/"
   },
-
   {
-    id: 2,
-    title: "Myntra Clone",
-    date: "Oct 2024 - Nov 2024",
-    description:
-      "A visually appealing and responsive clone of the Myntra website built using HTML and CSS. This project replicates the design and layout of the original Myntra website to showcase my front-end development skills.",
-    image:
-      "/images/myntra-clone.png",
-    tags: ["HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/xenon1919/Myntra-Clone",
-    webapp: "https://myntra-clone-ec2s.vercel.app/",
+    "id": 11,
+    "title": "Customer Churn Prediction using XGBoost",
+    "date": "Dec 2024 - Mar 2025",
+    "description": "An AI-powered web application built with Streamlit, utilizing XGBoost to predict customer churn. It analyzes customer data to determine whether a customer will stay or leave a company based on financial and demographic details. The system provides real-time predictions, insights into key influencing factors, and an interactive UI for ease of use.",
+    "image": "/images/customer churn.png",
+    "tags": ["Streamlit", "Python", "XGBoost", "Scikit-learn", "Pandas", "NumPy", "Pickle", "MinMaxScaler"],
+    "category": "machine learning",
+    "github": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost",
+    "webapp": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost"
   },
-
   {
-    id: 10,
-    title: "Gemini AI Clone",
-    date: "Mar 2025",
-    description:
-      "A simple Gemini AI clone built using the Gemini API and React.js.",
-    image:
-      "/images/gemini.png",
-    tags: ["React.js", "Gemini API"],
-    category: "web app",
-    github: "https://github.com/xenon1919/Gemini-Clone-using-ReactJS",
-    webapp: "https://gemini-clone-using-react-js.vercel.app/",
+    "id": 7,
+    "title": "Speech Emotion Recognition",
+    "date": "Oct 2024",
+    "description": "A web application that identifies emotions from speech audio files using machine learning. The model extracts features from .wav files and classifies emotions based on trained data.",
+    "image": "./images/audio.png",
+    "tags": ["Python", "Machine Learning", "Streamlit", "Librosa", "Scikit-learn", "NumPy"],
+    "category": "machine learning",
+    "github": "https://github.com/xenon1919/Speech-Emotion-Recognition",
+    "webapp": "https://github.com/xenon1919/Speech-Emotion-Recognition"
   },
-{
-  "id": 11,
-  "title": "Customer Churn Prediction using XGBoost",
-  "date": "Dec 2024 - Mar 2025",
-  "description": "An AI-powered web application built with Streamlit, utilizing XGBoost to predict customer churn. It analyzes customer data to determine whether a customer will stay or leave a company based on financial and demographic details. The system provides real-time predictions, insights into key influencing factors, and an interactive UI for ease of use.",
-  "image": "/images/customer-churn.png",
-  "tags": [
-    "Streamlit",
-    "Python",
-    "XGBoost",
-    "Scikit-learn",
-    "Pandas",
-    "NumPy",
-    "Pickle",
-    "MinMaxScaler"
-  ],
-  "category": "machine learning",
-  "github": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost",
-  "webapp": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost"
-},
-{
-  "id": 12,
-  "title": "Virtual Shopping Assistant",
-  "date": "Mar 2025 - Apr 2025",
-  "description": "A smart and interactive web application built with React and Express.js, the Virtual Shopping Assistant helps users discover and explore products effortlessly through a chatbot-style interface. It uses a simple AI-based backend and DummyJSON API to suggest products and respond to user queries, offering an intuitive and modern shopping experience.",
-  "image": "/images/virtual-shopping.png",
-  "tags": [
-    "ReactJS",
-    "Express.js",
-    "JavaScript",
-    "CSS",
-    "Google Fonts",
-    "React Icons",
-    "DummyJSON API"
-  ],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/Virtual-Shopping-Assistant",
-  "webapp": "https://virtual-shopping-assistant-j6km.onrender.com/"
-},
-{
-  "id": 13,
-  "title": "Netflix India Clone 🎬",
-  "date": "Apr 2025",
-  "description": "A fully responsive Netflix India homepage clone built using HTML5 and CSS3. This project replicates the vibrant UI, clean layout, and core features of the Netflix India landing page, including device compatibility sections, FAQ accordion, and an email capture form for user engagement.",
-  "image": "/images/netflix.png",
-  "tags": [
-    "HTML5",
-    "CSS3",
-    "Responsive Design",
-    "UI Clone",
-    "Netflix"
-  ],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/Netflix-Clone-using-HTML-CSS",
-  "webapp": "https://netflix-clone-gules-five.vercel.app/"
-},
-{
-  "id": 14,
-  "title": "QR Code Attendance System using Django 🧑‍💼📷",
-  "date": "Apr 2025",
-  "description": "A Django-based web application that automates employee attendance tracking through QR code scanning. It features secure admin and employee login, real-time webcam-based QR scanning using OpenCV, and an intuitive dashboard to manage daily attendance records.",
-  "image": "/images/emp.png",
-  "tags": [
-    "Django",
-    "QR Code",
-    "OpenCV",
-    "MySQL",
-    "Attendance System"
-  ],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/QR-Code-Attendance-System-Django",
-  "webapp": "https://github.com/xenon1919/QR-Code-Attendance-System-Django"
-},
-
   {
-  "id": 15,
-  "title": "Django Inventory Management System 📦",
-  "date": "Apr 2025",
-  "description": "A responsive Django-based Inventory Management System for efficient product tracking. Includes full CRUD functionality, clean Bootstrap 4 UI, and enhanced form styling with crispy forms. Ideal for managing stock, suppliers, and product details with ease.",
-  "image": "/images/inv.png",
-  "tags": [
-    "Django",
-    "Inventory",
-    "CRUD",
-    "Bootstrap",
-    "Python"
-  ],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/Django-Inventory-Management-System",
-  "webapp": "https://github.com/xenon1919/Django-Inventory-Management-System"
-},
-
-  {
-    id: 4,
-    title: "Pneumonia Detection",
-    date: "Nov 2024",
-    description:
-      "A web app for detecting pneumonia in chest X-ray images using a fine-tuned Convolutional Neural Network (CNN). Users can upload X-ray images, which are processed and analyzed to provide pneumonia detection results with confidence levels.",
-    image:
-      "/images/pneumonia.png",
-    tags: ["Python", "TensorFlow", "Keras", "Streamlit", "NumPy"],
-    category: "machine learning",
-    github:
-      "https://github.com/xenon1919/Advanced-Pneumonia-Detection-in-Chest-X-rays-Using-Optimized-Convolutional-Neural-Networks",
-    webapp:
-      "https://pneumonia-detection-app-123.streamlit.app/",
+    "id": 6,
+    "title": "Real-Time Emotion Detection System",
+    "date": "Sep 2024",
+    "description": "A real-time emotion detection system that operates on streaming video data and identifies the predominant emotion in each frame. It uses a CNN model trained with facial expression datasets and integrates OpenCV for real-time video processing. The GUI is built using Tkinter.",
+    "image": "./images/emotion.png",
+    "tags": ["Python", "Machine Learning", "TensorFlow", "Keras", "OpenCV", "Tkinter"],
+    "category": "machine learning",
+    "github": "https://github.com/xenon1919/Real-Time-Emotion-Detection-System",
+    "webapp": "https://github.com/xenon1919/Real-Time-Emotion-Detection-System"
   },
-
   {
-    id: 3,
-    title: "Video Chat App",
-    date: "Mar 2023 - Apr 2023",
-    description:
-      "A simple video chat application built using HTML, CSS, and JavaScript, utilizing the Agora SDK for real-time video and audio communication.",
-    image:
-      "/images/video-chat.png",
-    tags: ["HTML5", "CSS3", "JavaScript (ES6)", "Agora RTC SDK"],
-    category: "web app",
-    github: "https://github.com/xenon1919/Videochat-Website",
-    webapp: "https://github.com/xenon1919/Videochat-Website",
+    "id": 5,
+    "title": "Credit Card Fraud Detection",
+    "date": "Jun 2023",
+    "description": "A machine learning project to predict fraudulent credit card transactions. It handles imbalanced data using undersampling and applies Logistic Regression and XGBoost models. With an AUC of 0.98, it offers robust fraud detection. Includes a Streamlit app for real-time predictions.",
+    "image": "/images/credit-fraud.png",
+    "tags": ["Python", "Machine Learning", "XGBoost", "Logistic Regression", "Streamlit"],
+    "category": "machine learning",
+    "github": "https://github.com/xenon1919/Credit-Card-Fraud-Detection",
+    "webapp": "https://github.com/xenon1919/Credit-Card-Fraud-Detection"
   },
-
   {
-    id: 5,
-    title: "Credit Card Fraud Detection",
-    date: "Jun 2023",
-    description:
-      "A machine learning project to predict fraudulent credit card transactions. It handles imbalanced data using undersampling and applies Logistic Regression and XGBoost models. With an AUC of 0.98, it offers robust fraud detection. Includes a Streamlit app for real-time predictions.",
-    image:
-      "/images/credit-fraud.png",
-    tags: [
-      "Python",
-      "Machine Learning",
-      "XGBoost",
-      "Logistic Regression",
-      "Streamlit",
-    ],
-    category: "machine learning",
-    github: "https://github.com/xenon1919/Credit-Card-Fraud-Detection",
-    webapp: "https://github.com/xenon1919/Credit-Card-Fraud-Detection",
+    "id": 4,
+    "title": "Pneumonia Detection",
+    "date": "Nov 2024",
+    "description": "A web app for detecting pneumonia in chest X-ray images using a fine-tuned Convolutional Neural Network (CNN). Users can upload X-ray images, which are processed and analyzed to provide pneumonia detection results with confidence levels.",
+    "image": "/images/pneumonia.png",
+    "tags": ["Python", "TensorFlow", "Keras", "Streamlit", "NumPy"],
+    "category": "machine learning",
+    "github": "https://github.com/xenon1919/Advanced-Pneumonia-Detection-in-Chest-X-rays-Using-Optimized-Convolutional-Neural-Networks",
+    "webapp": "https://pneumonia-detection-app-123.streamlit.app/"
   },
-
   {
-    id: 6,
-    title: "Real-Time Emotion Detection System",
-    date: "Sep 2024",
-    description:
-      "A real-time emotion detection system that operates on streaming video data and identifies the predominant emotion in each frame. It uses a CNN model trained with facial expression datasets and integrates OpenCV for real-time video processing. The GUI is built using Tkinter.",
-    image:
-      "./images/emotion.png",
-    tags: [
-      "Python",
-      "Machine Learning",
-      "TensorFlow",
-      "Keras",
-      "OpenCV",
-      "Tkinter",
-    ],
-    category: "machine learning",
-    github: "https://github.com/xenon1919/Real-Time-Emotion-Detection-System",
-    webapp: "https://github.com/xenon1919/Real-Time-Emotion-Detection-System",
+    "id": 0,
+    "title": "Spotify Clone",
+    "date": "Feb 2025 - Mar 2025",
+    "description": "A Spotify Clone built using React.js and Tailwind CSS, featuring a sleek UI, responsive design, and music playback functionality.",
+    "image": "/images/spotify-clone.png",
+    "tags": ["React.js", "Tailwind CSS", "Context API"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/spotify-clone-react",
+    "webapp": "https://spotify-woad-eight.vercel.app/"
   },
-
   {
-    id: 7,
-    title: "Speech Emotion Recognition",
-    date: "Oct 2024",
-    description:
-      "A web application that identifies emotions from speech audio files using machine learning. The model extracts features from .wav files and classifies emotions based on trained data.",
-    image:
-      "./images/audio.png",
-    tags: [
-      "Python",
-      "Machine Learning",
-      "Streamlit",
-      "Librosa",
-      "Scikit-learn",
-      "NumPy",
-    ],
-    category: "machine learning",
-    github: "https://github.com/xenon1919/Speech-Emotion-Recognition",
-    webapp: "https://github.com/xenon1919/Speech-Emotion-Recognition",
+    "id": 3,
+    "title": "Video Chat App",
+    "date": "Mar 2023 - Apr 2023",
+    "description": "A simple video chat application built using HTML, CSS, and JavaScript, utilizing the Agora SDK for real-time video and audio communication.",
+    "image": "/images/video-chat.png",
+    "tags": ["HTML5", "CSS3", "JavaScript (ES6)", "Agora RTC SDK"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/Videochat-Website",
+    "webapp": "https://github.com/xenon1919/Videochat-Website"
   },
-
   {
-    id: 8,
-    title: "To-Do List Web App",
-    date: "Mar 2023",
-    description:
-      "A simple and interactive To-Do List web app built with HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as completed with a clean UI.",
-    image:
-     "/images/to-do.png",
-    tags: ["JavaScript", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/xenon1919/To-Do-List",
-    webapp: "https://xenon1919.github.io/To-Do-List/",
+    "id": 2,
+    "title": "Myntra Clone",
+    "date": "Oct 2024 - Nov 2024",
+    "description": "A visually appealing and responsive clone of the Myntra website built using HTML and CSS. This project replicates the design and layout of the original Myntra website to showcase my front-end development skills.",
+    "image": "/images/myntra-clone.png",
+    "tags": ["HTML", "CSS"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/Myntra-Clone",
+    "webapp": "https://myntra-clone-ec2s.vercel.app/"
   },
-];
+  {
+    "id": 8,
+    "title": "To-Do List Web App",
+    "date": "Mar 2023",
+    "description": "A simple and interactive To-Do List web app built with HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as completed with a clean UI.",
+    "image": "/images/to-do.png",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/To-Do-List",
+    "webapp": "https://xenon1919.github.io/To-Do-List/"
+  }
+]
+
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
