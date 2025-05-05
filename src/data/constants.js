@@ -313,7 +313,4 @@ export const projects = [
     "github": "https://github.com/xenon1919/To-Do-List",
     "webapp": "https://xenon1919.github.io/To-Do-List/"
   }
-],
-
-
-
+]
