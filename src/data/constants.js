@@ -212,7 +212,7 @@ export const projects = [
     description:
       "Eatsy is a full-stack food delivery app offering a seamless experience for browsing, ordering, and paying for meals. Built with React, Node.js, Express, MongoDB, and Stripe, it features user authentication, dynamic menus, cart management, secure payments, and an admin dashboard for managing orders and data. Scalable and user-friendly!",
     image:
-      "https://github.com/xenon1919/Eatsy-App/blob/main/Eatsy.png?raw=true",
+      "/images/eatsy.png",
     tags: [
       "React.js",
       "CSS3",
@@ -235,7 +235,7 @@ export const projects = [
     description:
       "A Spotify Clone built using React.js and Tailwind CSS, featuring a sleek UI, responsive design, and music playback functionality.",
     image:
-      "https://github.com/xenon1919/spotify-clone-react/blob/main/spotify-clone.png?raw=true",
+      "/images/spotify-clone.png",
     tags: ["React.js", "Tailwind CSS", "Context API"],
     category: "web app",
     github: "https://github.com/xenon1919/spotify-clone-react",
@@ -249,7 +249,7 @@ export const projects = [
     description:
       "This project focuses on customer churn analysis using SQL and Power BI. The data was imported into Power BI via Excel for visualization and insights. The objective is to identify factors contributing to customer churn and provide actionable insights for business improvements.",
     image:
-      "https://github.com/xenon1919/Churn-Trends-Dashboard/blob/main/churn-analysis-1.png?raw=true",
+      "/images/churn-analysis-1.png",
     tags: ["SQL", "Excel", "Power BI"],
     category: "machine learning",
     github: "https://github.com/xenon1919/Churn-Trends-Dashboard",
@@ -263,7 +263,7 @@ export const projects = [
     description:
       "A visually appealing and responsive clone of the Myntra website built using HTML and CSS. This project replicates the design and layout of the original Myntra website to showcase my front-end development skills.",
     image:
-      "https://github.com/xenon1919/Myntra-Clone/blob/main/myntra-clone.png?raw=true",
+      "/images/myntra-clone.png",
     tags: ["HTML", "CSS"],
     category: "web app",
     github: "https://github.com/xenon1919/Myntra-Clone",
@@ -277,7 +277,7 @@ export const projects = [
     description:
       "A simple Gemini AI clone built using the Gemini API and React.js.",
     image:
-      "https://github.com/xenon1919/Gemini-Clone-using-ReactJS/blob/main/gemini.png?raw=true",
+      "/images/gemini.png",
     tags: ["React.js", "Gemini API"],
     category: "web app",
     github: "https://github.com/xenon1919/Gemini-Clone-using-ReactJS",
@@ -288,7 +288,7 @@ export const projects = [
   "title": "Customer Churn Prediction using XGBoost",
   "date": "Dec 2024 - Mar 2025",
   "description": "An AI-powered web application built with Streamlit, utilizing XGBoost to predict customer churn. It analyzes customer data to determine whether a customer will stay or leave a company based on financial and demographic details. The system provides real-time predictions, insights into key influencing factors, and an interactive UI for ease of use.",
-  "image": "https://github.com/xenon1919/Churn-Prediction-using-XGBoost/blob/main/customer%20churn.png?raw=true",
+  "image": "/images/customer-churn.png",
   "tags": [
     "Streamlit",
     "Python",
@@ -308,7 +308,7 @@ export const projects = [
   "title": "Virtual Shopping Assistant",
   "date": "Mar 2025 - Apr 2025",
   "description": "A smart and interactive web application built with React and Express.js, the Virtual Shopping Assistant helps users discover and explore products effortlessly through a chatbot-style interface. It uses a simple AI-based backend and DummyJSON API to suggest products and respond to user queries, offering an intuitive and modern shopping experience.",
-  "image": "https://github.com/xenon1919/Virtual-Shopping-Assistant/blob/main/virtual-shopping.png?raw=true",
+  "image": "/images/virtual-shopping.png",
   "tags": [
     "ReactJS",
     "Express.js",
@@ -327,7 +327,7 @@ export const projects = [
   "title": "Netflix India Clone 🎬",
   "date": "Apr 2025",
   "description": "A fully responsive Netflix India homepage clone built using HTML5 and CSS3. This project replicates the vibrant UI, clean layout, and core features of the Netflix India landing page, including device compatibility sections, FAQ accordion, and an email capture form for user engagement.",
-  "image": "https://github.com/xenon1919/Netflix-Clone-using-HTML-CSS/blob/main/netflix.png?raw=true",
+  "image": "/images/netflix.png",
   "tags": [
     "HTML5",
     "CSS3",
@@ -344,7 +344,7 @@ export const projects = [
   "title": "QR Code Attendance System using Django 🧑‍💼📷",
   "date": "Apr 2025",
   "description": "A Django-based web application that automates employee attendance tracking through QR code scanning. It features secure admin and employee login, real-time webcam-based QR scanning using OpenCV, and an intuitive dashboard to manage daily attendance records.",
-  "image": "https://github.com/xenon1919/QR-Code-Attendance-System-Django/blob/main/emp.png?raw=true",
+  "image": "/images/emp.png",
   "tags": [
     "Django",
     "QR Code",
@@ -362,7 +362,7 @@ export const projects = [
   "title": "Django Inventory Management System 📦",
   "date": "Apr 2025",
   "description": "A responsive Django-based Inventory Management System for efficient product tracking. Includes full CRUD functionality, clean Bootstrap 4 UI, and enhanced form styling with crispy forms. Ideal for managing stock, suppliers, and product details with ease.",
-  "image": "https://github.com/xenon1919/Django-Inventory-Management-System/blob/main/inv.png?raw=true",
+  "image": "/images/inv.png",
   "tags": [
     "Django",
     "Inventory",
@@ -382,7 +382,7 @@ export const projects = [
     description:
       "A web app for detecting pneumonia in chest X-ray images using a fine-tuned Convolutional Neural Network (CNN). Users can upload X-ray images, which are processed and analyzed to provide pneumonia detection results with confidence levels.",
     image:
-      "https://github.com/xenon1919/Advanced-Pneumonia-Detection-in-Chest-X-rays-Using-Optimized-Convolutional-Neural-Networks/blob/main/pneumonia.png?raw=true",
+      "/images/pneumonia.png",
     tags: ["Python", "TensorFlow", "Keras", "Streamlit", "NumPy"],
     category: "machine learning",
     github:
@@ -398,7 +398,7 @@ export const projects = [
     description:
       "A simple video chat application built using HTML, CSS, and JavaScript, utilizing the Agora SDK for real-time video and audio communication.",
     image:
-      "https://github.com/xenon1919/Videochat-Website/blob/main/video-chat.png?raw=true",
+      "/images/video-chat.png",
     tags: ["HTML5", "CSS3", "JavaScript (ES6)", "Agora RTC SDK"],
     category: "web app",
     github: "https://github.com/xenon1919/Videochat-Website",
@@ -412,7 +412,7 @@ export const projects = [
     description:
       "A machine learning project to predict fraudulent credit card transactions. It handles imbalanced data using undersampling and applies Logistic Regression and XGBoost models. With an AUC of 0.98, it offers robust fraud detection. Includes a Streamlit app for real-time predictions.",
     image:
-      "https://github.com/xenon1919/Credit-Card-Fraud-Detection/blob/main/credit-fraud.png?raw=true",
+      "/images/credit-fraud.png",
     tags: [
       "Python",
       "Machine Learning",
