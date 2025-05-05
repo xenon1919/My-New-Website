@@ -474,7 +474,7 @@ export const projects = [
     description:
       "A simple and interactive To-Do List web app built with HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as completed with a clean UI.",
     image:
-      "src/data/images/to-do.png",
+     "/images/to-do.png",
     tags: ["JavaScript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/xenon1919/To-Do-List",
