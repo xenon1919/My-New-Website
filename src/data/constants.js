@@ -432,7 +432,7 @@ export const projects = [
     description:
       "A real-time emotion detection system that operates on streaming video data and identifies the predominant emotion in each frame. It uses a CNN model trained with facial expression datasets and integrates OpenCV for real-time video processing. The GUI is built using Tkinter.",
     image:
-      "https://github.com/xenon1919/Real-Time-Emotion-Detection-System/blob/main/emotion.png?raw=true",
+      "./images/emotion.png",
     tags: [
       "Python",
       "Machine Learning",
@@ -453,7 +453,7 @@ export const projects = [
     description:
       "A web application that identifies emotions from speech audio files using machine learning. The model extracts features from .wav files and classifies emotions based on trained data.",
     image:
-      "https://github.com/xenon1919/Speech-Emotion-Detection/blob/main/audio.png?raw=true",
+      "./images/audio.png",
     tags: [
       "Python",
       "Machine Learning",
@@ -474,7 +474,7 @@ export const projects = [
     description:
       "A simple and interactive To-Do List web app built with HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as completed with a clean UI.",
     image:
-      "https://github.com/xenon1919/To-Do-List/blob/main/to-do.png?raw=true",
+      "./images/to-do.png",
     tags: ["JavaScript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/xenon1919/To-Do-List",
