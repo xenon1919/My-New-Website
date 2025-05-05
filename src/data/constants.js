@@ -181,7 +181,6 @@ export const education = [
 ];
 
 export const projects = [
-[
   {
     "id": 10,
     "title": "Secure Online Voting System",
