@@ -192,17 +192,7 @@ export const projects = [
     "github": "https://github.com/xenon1919/Secure-Online-Voting-System",
     "webapp": "http://secure-voting-frontend.onrender.com/"
   },
-  {
-    "id": 9,
-    "title": "Eatsy-App",
-    "date": "Dec 2024 - Feb 2025",
-    "description": "Eatsy is a full-stack food delivery app offering a seamless experience for browsing, ordering, and paying for meals. Built with React, Node.js, Express, MongoDB, and Stripe, it features user authentication, dynamic menus, cart management, secure payments, and an admin dashboard for managing orders and data. Scalable and user-friendly!",
-    "image": "/images/eatsy.png",
-    "tags": ["React.js", "CSS3", "Node.js", "Express.js", "MongoDB", "Stripe API", "bcrypt.js", "jsonwebtoken (JWT)"],
-    "category": "web app",
-    "github": "https://github.com/xenon1919/Eatsy-App",
-    "webapp": "http://eatsy-app-frontend.onrender.com/"
-  },
+ 
   {
     "id": 12,
     "title": "Virtual Shopping Assistant",
@@ -301,6 +291,17 @@ export const projects = [
     "category": "web app",
     "github": "https://github.com/xenon1919/Myntra-Clone",
     "webapp": "https://myntra-clone-ec2s.vercel.app/"
+  },
+   {
+    "id": 9,
+    "title": "Eatsy-App",
+    "date": "Dec 2024 - Feb 2025",
+    "description": "Eatsy is a full-stack food delivery app offering a seamless experience for browsing, ordering, and paying for meals. Built with React, Node.js, Express, MongoDB, and Stripe, it features user authentication, dynamic menus, cart management, secure payments, and an admin dashboard for managing orders and data. Scalable and user-friendly!",
+    "image": "/images/eatsy.png",
+    "tags": ["React.js", "CSS3", "Node.js", "Express.js", "MongoDB", "Stripe API", "bcrypt.js", "jsonwebtoken (JWT)"],
+    "category": "web app",
+    "github": "https://github.com/xenon1919/Eatsy-App",
+    "webapp": "http://eatsy-app-frontend.onrender.com/"
   },
   {
     "id": 8,
