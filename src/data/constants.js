@@ -192,6 +192,17 @@ export const projects = [
     "github": "https://github.com/xenon1919/Secure-Online-Voting-System",
     "webapp": "http://secure-voting-frontend.onrender.com/"
   },
+  {
+  "id": 14,
+  "title": "Next.js CGPA Calculator",
+  "date": "Jan 2025 - Feb 2025",
+  "description": "A modern and user-friendly CGPA calculator web application developed with Next.js and Material-UI. This tool simplifies the process for students to calculate their Cumulative Grade Point Average (CGPA). It features dynamic addition and removal of semesters and includes pre-filled credit information specifically for Computer Science Engineering (CSE) students, enhancing efficiency and ease of use.",
+  "image": "/images/gpatracker.png",
+  "tags": ["Next.js", "ReactJS", "JavaScript", "Material-UI", "CSS", "Netlify"],
+  "category": "web app",
+  "github": "https://github.com/xenon1919/CGPA-Calculator",
+  "webapp": "https://gpatracker.netlify.app/"
+},
  {
   "id": 13,
   "title": "Paranoia Post",
