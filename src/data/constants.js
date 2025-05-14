@@ -198,7 +198,7 @@ export const projects = [
   "date": "Apr 2025 - Present",
   "description": "A secure one-time message sharing app prioritizing privacy. Built with React, Express, MongoDB, and UUIDs, it ensures messages can only be viewed once or before they expire. Ideal for sharing sensitive information like passwords or secrets. Features include TTL (Time-to-Live) control, automatic deletion upon viewing or expiry, and a sleek user interface.",
   "image": "/images/otp.png",
-  "tags": ["ReactJS", "Express.js", "MongoDB", "Node.js", "JavaScript", "CSS", ],
+  "tags": ["ReactJS", "Express.js", "MongoDB", "Node.js", "JavaScript", "CSS"],
   "category": "web app",
   "github": "https://github.com/xenon1919/One-Time-Secret-Message-App",
   "webapp": "https://one-time-secret-message-app-35ls.vercel.app/"
