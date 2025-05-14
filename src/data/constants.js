@@ -192,28 +192,28 @@ export const projects = [
     "github": "https://github.com/xenon1919/Secure-Online-Voting-System",
     "webapp": "http://secure-voting-frontend.onrender.com/"
   },
-  {
-  "id": 14,
-  "title": "Next.js CGPA Calculator",
-  "date": "Jan 2025 - Feb 2025",
-  "description": "A modern and user-friendly CGPA calculator web application developed with Next.js and Material-UI. This tool simplifies the process for students to calculate their Cumulative Grade Point Average (CGPA). It features dynamic addition and removal of semesters and includes pre-filled credit information specifically for Computer Science Engineering (CSE) students, enhancing efficiency and ease of use.",
-  "image": "/images/gpatracker.png",
-  "tags": ["Next.js", "ReactJS", "JavaScript", "Material-UI", "CSS", "Netlify"],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/CGPA-Calculator",
-  "webapp": "https://gpatracker.netlify.app/"
-},
- {
-  "id": 13,
-  "title": "Paranoia Post",
-  "date": "Apr 2025 - Present",
-  "description": "A secure one-time message sharing app prioritizing privacy. Built with React, Express, MongoDB, and UUIDs, it ensures messages can only be viewed once or before they expire. Ideal for sharing sensitive information like passwords or secrets. Features include TTL (Time-to-Live) control, automatic deletion upon viewing or expiry, and a sleek user interface.",
-  "image": "/images/otp-app.png",
-  "tags": ["ReactJS", "Express.js", "MongoDB", "Node.js", "JavaScript", "CSS"],
-  "category": "web app",
-  "github": "https://github.com/xenon1919/One-Time-Secret-Message-App",
-  "webapp": "https://one-time-secret-message-app-35ls.vercel.app/"
-},
+//   {
+//   "id": 14,
+//   "title": "Next.js CGPA Calculator",
+//   "date": "Jan 2025 - Feb 2025",
+//   "description": "A modern and user-friendly CGPA calculator web application developed with Next.js and Material-UI. This tool simplifies the process for students to calculate their Cumulative Grade Point Average (CGPA). It features dynamic addition and removal of semesters and includes pre-filled credit information specifically for Computer Science Engineering (CSE) students, enhancing efficiency and ease of use.",
+//   "image": "/images/gpatracker.png",
+//   "tags": ["Next.js", "ReactJS", "JavaScript", "Material-UI", "CSS", "Netlify"],
+//   "category": "web app",
+//   "github": "https://github.com/xenon1919/CGPA-Calculator",
+//   "webapp": "https://gpatracker.netlify.app/"
+// },
+//  {
+//   "id": 13,
+//   "title": "Paranoia Post",
+//   "date": "Apr 2025 - Present",
+//   "description": "A secure one-time message sharing app prioritizing privacy. Built with React, Express, MongoDB, and UUIDs, it ensures messages can only be viewed once or before they expire. Ideal for sharing sensitive information like passwords or secrets. Features include TTL (Time-to-Live) control, automatic deletion upon viewing or expiry, and a sleek user interface.",
+//   "image": "/images/otp-app.png",
+//   "tags": ["ReactJS", "Express.js", "MongoDB", "Node.js", "JavaScript", "CSS"],
+//   "category": "web app",
+//   "github": "https://github.com/xenon1919/One-Time-Secret-Message-App",
+//   "webapp": "https://one-time-secret-message-app-35ls.vercel.app/"
+// },
   {
     "id": 12,
     "title": "Virtual Shopping Assistant",
